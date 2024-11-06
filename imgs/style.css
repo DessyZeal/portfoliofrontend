@@ -130,7 +130,7 @@ span {
     font-weight: 400;
     letter-spacing: 2px;
     outline: none;
-    padding: 1rem .6rem;
+    padding: .8rem .6rem;
     border: 1px solid #9440ac;
     background-color: transparent;
     color: #9440ac;
@@ -157,6 +157,58 @@ span {
     border-bottom: 3px solid #652c75;
     background-color: #652c751a;
 }
+
+.page-title {
+    margin-left: 160px;
+    font-size: 30px;
+    border-bottom: 1px solid #9359a3;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 70px;
+
+}
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.card {
+    width: 325px;
+    background-color: #652c751a;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: stretch;
+}
+.card-content {
+    padding: 20px;
+}
+.card-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.card-content p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.card-button {
+    display: inline-block;
+    border: 2px solid #9440ac;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: 1s;
+    color: #9440ac;
+}
+.card-button:hover {
+    background-color: #9440ac;
+    color: #c9bebe;
+
+}
+
 
 @media (width < 750px){
     nav .checkbox {
