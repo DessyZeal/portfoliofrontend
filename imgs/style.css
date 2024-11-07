@@ -159,7 +159,7 @@ span {
 }
 
 .page-title {
-    margin-left: 160px;
+    margin: auto;
     font-size: 30px;
     border-bottom: 1px solid #9359a3;
 }
@@ -207,6 +207,16 @@ span {
     background-color: #9440ac;
     color: #c9bebe;
 
+}
+.about {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    display: flex;
+}
+.about-content p{
+    word-wrap: wrap;
 }
 
 
