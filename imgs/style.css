@@ -158,19 +158,12 @@ span {
     background-color: #652c751a;
 }
 
-.page-title {
-    margin: auto;
-    font-size: 30px;
-    border-bottom: 1px solid #9359a3;
-}
-
 .card-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
     margin-top: 70px;
-
 }
 .card img {
     width: 100%;
@@ -192,7 +185,7 @@ span {
     margin-bottom: 10px;
 }
 .card-content p {
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 .card-button {
@@ -208,15 +201,37 @@ span {
     color: #c9bebe;
 
 }
-.about {
-    max-width: 1200px;
+.about-content {
+    width: 1050px;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 1rem;
-    display: flex;
+    line-height: 1.5;
+    font-size: 1.2rem;
 }
-.about-content p{
-    word-wrap: wrap;
+.page-title h2{
+    margin-left: 10rem;
+    font-size: 30px;
+    border-bottom: 1px solid #9359a3;
+    width: 1030px;
+}
+.aboutpage h1{
+    margin-left: 10rem;
+    font-size: 30px;
+    border-bottom: 1px solid #9359a3;
+    width: 1050px;
+    margin-top: 3rem;
+}
+.formcontainer h1{
+    margin-bottom: 2rem;
+}
+.formcontainer {
+    display: flexex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24rem;
+    gap:1rem;
 }
 
 
