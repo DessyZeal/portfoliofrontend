@@ -223,17 +223,72 @@ span {
     margin-top: 3rem;
 }
 .formcontainer h1{
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
 }
 .formcontainer {
-    display: flexex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 24rem;
-    gap:1rem;
+    display: grid;
+    place-items: center;
+    /* margin: 2rem; */
 }
+ form {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    gap: 1rem;
+    background-color: #652c751a;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    margin:1rem;
+ }
+ input,
+ textarea {
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid #652c75;
+    border-radius: 1rem;
+ }
+ textarea {
+    height: 6rem;
+ }
+ ::placeholder {
+    color: #652c758a;
+ }
+button {
+    width: 10rem;
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid #652c75;
+    color: #652c75;
+    border-radius: 1rem;
+}
+.footer {
+    padding: 40px 0;
+    background-color: #652c751a;
+}
+.footer .social {
+    text-align: center;
+    padding-top: 25px;
+}
+.footer .social a{
+    font-size: 25px;
+    border: 1px solid #652c75;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover {
+    opacity: 0.9;
+}
+.footer .list .foot a {
+    opacity: 0.8;
+    display: inline-block;
+    padding: 0 15px;
 
+}
 
 @media (width < 750px){
     nav .checkbox {
