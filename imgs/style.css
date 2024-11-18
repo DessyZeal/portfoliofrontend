@@ -13,6 +13,9 @@
     --FONT-COLOR: #9440AC;
     --TEXT-COLOR: #9359a3;
 }
+html {
+    scroll-behavior: smooth;
+}
 a {
 text-decoration: none;
 }
@@ -28,7 +31,7 @@ nav {
     position: fixed;
     top:0;
     left:0;
-    background-color: #652c751a;
+    background-color: #652c75;
     z-index: 99;
 }
 .nav-content {
@@ -42,7 +45,7 @@ nav {
 nav .logo a {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #652c75;
+    color: #d9b9e2;
 }
 nav .checkbox {
     display: none;
@@ -52,7 +55,7 @@ nav input {
 }
 nav .checkbox i {
     font-size: 2rem;
-    color: #652c75;
+    color: #d9b9e2;
     cursor: pointer;
 }
 ul {
@@ -66,10 +69,11 @@ ul li a {
     padding: .5rem 1rem;
     font-weight: 500;
     transition: 0.3s;
+    color: #c9bebe;
 }
 ul li a:hover {
     border-bottom:2px solid #652c75;
-    color: #652c75;
+    color: #d9b9e2;
 }
 
 .container {
@@ -248,7 +252,7 @@ span {
     border-radius: 1rem;
  }
  textarea {
-    height: 6rem;
+    height: 7.5rem;
  }
  ::placeholder {
     color: #652c758a;
@@ -260,14 +264,15 @@ button {
     border: 1px solid #652c75;
     color: #652c75;
     border-radius: 1rem;
+    cursor: pointer;
 }
 .footer {
-    padding: 40px 0;
+    padding: 10px 0;
     background-color: #652c751a;
 }
 .footer .social {
     text-align: center;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 .footer .social a{
     font-size: 25px;
@@ -283,11 +288,16 @@ button {
 .footer .social a:hover {
     opacity: 0.9;
 }
-.footer .list .foot a {
-    opacity: 0.8;
-    display: inline-block;
-    padding: 0 15px;
-
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.footer .quote {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 @media (width < 750px){
