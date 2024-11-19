@@ -206,7 +206,9 @@ span {
 
 }
 .about-content {
-    width: 1050px;
+    /* width: 1049px; */
+    max-width: 1048px;
+    min-height: 400px;
     margin: auto;
     margin-top: 2rem;
     padding: 1rem;
@@ -226,21 +228,62 @@ span {
     width: 1050px;
     margin-top: 3rem;
 }
-.formcontainer h1{
-    margin-bottom: .5rem;
+.form-container {
+    margin-bottom: 1rem;
+    margin-left: 160px;
 }
-.formcontainer {
+.contact-form {
+    background-color: #652c751a;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 45rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact__fieldset {
+    border: none;
+}
+.form-container h2 {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #9359a3;
+    font-size: 30px;
+    width: 1050px;
+}
+.contact__p {
+    margin: 1em 0;
+}
+.contact__label {
+    display: block;
+    font-weight: bold;
+    /* min-width: 48%; */
+    width: 40rem;
+    flex: 1;
+}
+.contact__input,
+.contact__textarea {
+    padding: 10px;
+    border-radius: 16px;
+    border-width: 2px;
+    /* width: 40rem; */
+    min-width: 100%;
+    border: 2px solid #9359a3;
+    background-color: transparent;
+    flex: 1;
+}
+::placeholder {
+    color: #652c758a;
+ } 
+/* .formcontainer {
     display: grid;
     place-items: center;
-    /* margin: 2rem; */
-}
- form {
+} */
+ /* form {
     display: flex;
     flex-direction: column;
     width: 50rem;
+    min-height: 300px;
     gap: 1rem;
-    background-color: #652c751a;
-    border-radius: 1rem;
     padding: 2.5rem;
     margin:1rem;
  }
@@ -253,18 +296,16 @@ span {
  }
  textarea {
     height: 7.5rem;
- }
- ::placeholder {
-    color: #652c758a;
- }
+ } */
 button {
     width: 10rem;
     padding: 1rem;
     background-color: transparent;
-    border: 1px solid #652c75;
-    color: #652c75;
+    border: 2px solid #9359a3;
+    color: #9359a3;
     border-radius: 1rem;
     cursor: pointer;
+    font-weight: 500;
 }
 .footer {
     padding: 10px 0;
@@ -275,15 +316,18 @@ button {
     padding-top: 20px;
 }
 .footer .social a{
-    font-size: 25px;
-    border: 1px solid #652c75;
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    border-radius: 50%;
-    text-align: center;
     margin: 0 8px;
     opacity: 0.75;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border: 1.5px solid #9440ac;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    color: #9440ac;
 }
 .footer .social a:hover {
     opacity: 0.9;
@@ -349,5 +393,25 @@ button {
     .title {
         font-size: 1.9rem;
         text-wrap: nowrap;
+    }
+    .page-title h2{
+        margin-left: 2rem;
+    }
+    .aboutpage h1 {
+        margin-left: 2rem;
+    }
+    .about-content {
+        text-wrap: wrap;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .form-container h2 {
+        text-wrap: nowrap;
+    }
+    .contact-form,
+    .contact__input,
+    .contact__textarea{
+        flex: 100%;
+        /* min-width: 100%; */
     }
 }
