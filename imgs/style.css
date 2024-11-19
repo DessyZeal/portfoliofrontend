@@ -203,10 +203,8 @@ span {
 .card-button:hover {
     background-color: #9440ac;
     color: #c9bebe;
-
 }
 .about-content {
-    /* width: 1049px; */
     max-width: 1048px;
     min-height: 400px;
     margin: auto;
@@ -228,77 +226,36 @@ span {
     width: 1050px;
     margin-top: 3rem;
 }
-.form-container {
-    margin-bottom: 1rem;
-    margin-left: 160px;
+.contact {
+    margin: 0 10rem 2rem 10rem;
+    min-height: 200px;
 }
-.contact-form {
-    background-color: #652c751a;
-    border-radius: 1rem;
-    padding: 2rem;
-    width: 45rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.contact__fieldset {
-    border: none;
-}
-.form-container h2 {
-    margin-bottom: 1rem;
-    border-bottom: 1px solid #9359a3;
+.contact h1 {
     font-size: 30px;
-    width: 1050px;
+    border-bottom: 1px solid #9359a3;
 }
-.contact__p {
-    margin: 1em 0;
+.contact p {
+    padding-top: 2rem;
 }
-.contact__label {
-    display: block;
-    font-weight: bold;
-    /* min-width: 48%; */
-    width: 40rem;
-    flex: 1;
-}
-.contact__input,
-.contact__textarea {
-    padding: 10px;
-    border-radius: 16px;
-    border-width: 2px;
-    /* width: 40rem; */
-    min-width: 100%;
-    border: 2px solid #9359a3;
-    background-color: transparent;
-    flex: 1;
+.contact-form-div {
+    margin-top: 1.5rem;
 }
 ::placeholder {
     color: #652c758a;
- } 
-/* .formcontainer {
-    display: grid;
-    place-items: center;
-} */
- /* form {
-    display: flex;
-    flex-direction: column;
-    width: 50rem;
-    min-height: 300px;
-    gap: 1rem;
-    padding: 2.5rem;
-    margin:1rem;
  }
  input,
  textarea {
     padding: 1rem;
     background-color: transparent;
-    border: 1px solid #652c75;
+    border: 2px solid #9359a3;
     border-radius: 1rem;
+    width: 20rem;
+    margin-top: 1rem;
  }
  textarea {
     height: 7.5rem;
- } */
-button {
-    width: 10rem;
+ }
+    button {
     padding: 1rem;
     background-color: transparent;
     border: 2px solid #9359a3;
@@ -405,13 +362,11 @@ button {
         padding-left: 2rem;
         padding-right: 2rem;
     }
-    .form-container h2 {
+    .contact h1 {
         text-wrap: nowrap;
     }
-    .contact-form,
-    .contact__input,
-    .contact__textarea{
-        flex: 100%;
-        /* min-width: 100%; */
+    .contact {
+        margin-left: 2rem;
+        margin-right: 1rem;
     }
 }
