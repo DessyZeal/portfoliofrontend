@@ -4,6 +4,8 @@ body {
     background-color: #c9bebe;
     font-family: 'poppins', sans-serif;
     color: #9440ac;
+    margin: 0;
+    padding: 0;
 }
 img {
     width: 100%;
@@ -104,7 +106,7 @@ span {
     color: #652c75;
 }
 .home-content p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 200;
     margin-top: 6px;
     margin-bottom: 5px;
@@ -220,12 +222,18 @@ span {
     font-size: 30px;
     border-bottom: 1px solid #9359a3;
 }
+/* form {
+    display: flex;
+    flex-direction: column;
+    width: 24rem; 
+} */
 .contact h1 {
     font-size: 30px;
     border-bottom: 1px solid #9359a3;
 }
 .contact p {
     margin-top: 6px;
+    font-size: 1.3rem;
 }
 ::placeholder {
     color: #652c758a;
@@ -257,10 +265,10 @@ button {
     border-radius: 1rem;
     cursor: pointer;
     font-weight: 500;
+    width: 8rem;
 }
 .footer {
     margin-top: 10px;
-    /* padding: 9px 0; */
     background-color: #652c751a;
 }
 .footer .social {
@@ -333,11 +341,15 @@ button {
         text-wrap: nowrap;
     }
     .home-content p {
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+    input,
+    textarea {
+        width: 15.5rem;
     }
 }
 
-@media (width < 992px) {
+@media (width < 950px) {
     nav .checkbox {
         display: block;
     }
@@ -380,5 +392,17 @@ button {
     .card-container {
         display: flex;
         flex-wrap: wrap;
+    }
+}
+
+@media (width < 1179px) {
+    .home-content h3 {
+        /* text-wrap: nowrap; */
+        font-size: 1.5;
+
+    }
+    .home-content h1 {
+        font-size: 2.7rem;
+        /* text-wrap: nowrap; */
     }
 }
