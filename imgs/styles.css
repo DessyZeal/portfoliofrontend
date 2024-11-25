@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-    background-color: #c9bebe;
+    /* background-color: #c9bebe; */
+    background-color: rgba(39, 38, 38, 0.603);
     font-family: 'poppins', sans-serif;
     color: #9440ac;
     margin: 0;
@@ -115,6 +116,7 @@ span {
     margin-top: 6px;
     margin-bottom: 5px;
     line-height: 1.5;
+    color: #d9b9e2;
 }
 .title {
     font-size: 3rem;
