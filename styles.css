@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-    /* background-color: #c9bebe; */
-    background-color: rgba(39, 38, 38, 0.603);
+    background-color: #c9bebe;
     font-family: 'poppins', sans-serif;
     color: #9440ac;
     margin: 0;
@@ -81,8 +80,8 @@ ul li a:hover {
     align-items: center;
 }
 .images img {
-    width: 400px;
-    height: 400px;
+    width: 420px;
+    height: 420x;
     border-radius: 50%;
     background-color: #652c751a;
     border-bottom: 3px solid #652c75;
@@ -116,7 +115,7 @@ span {
     margin-top: 6px;
     margin-bottom: 5px;
     line-height: 1.5;
-    color: #d9b9e2;
+    /* color: #d9b9e2; */
 }
 .title {
     font-size: 3rem;
@@ -228,11 +227,12 @@ span {
     font-size: 30px;
     border-bottom: 1px solid #9359a3;
 }
-/* form {
+.contact form {
     display: flex;
     flex-direction: column;
-    width: 24rem; 
-} */
+    /* align-items: center; */
+    width: 100%;
+} 
 .contact h1 {
     font-size: 30px;
     border-bottom: 1px solid #9359a3;
