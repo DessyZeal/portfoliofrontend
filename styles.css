@@ -56,7 +56,7 @@ nav input {
 }
 nav .checkbox i {
     font-size: 2rem;
-    color: #fff;
+    color: #009688;
     cursor: pointer;
 }
 ul {
@@ -340,7 +340,7 @@ button {
         height: calc(100vh - 85px);
         right: -1000%;
         top: 85px;
-        background-color: #00968728;
+        background-color: #009688;
         flex-direction: column;
         justify-content: center;
         gap: 3rem;
@@ -382,7 +382,7 @@ button {
         height: calc(100vh - 85px);
         right: -1000%;
         top: 85px;
-        background-color: #00968728;
+        background-color: #009687d5;
         flex-direction: column;
         justify-content: center;
         gap: 3rem;
