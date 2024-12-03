@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-    background-color: #c9bebe;
+    background-color: #000000;
     font-family: 'poppins', sans-serif;
-    color: #9440ac;
     margin: 0;
     padding: 0;
 }
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
+    scroll-padding-top: 6rem;
 }
 img {
     width: 100%;
+    filter: brightness(60%);
 }
 a {
     text-decoration: none;
@@ -31,8 +31,10 @@ nav {
     position: fixed;
     top:0;
     left:0;
-    background-color: #652c75;
+    /* background-color: #00968728; */
     z-index: 99;
+    border-radius: 8rem;
+    margin-top: .9rem;
 }
 .nav-content {
     max-width: 1200px;
@@ -44,7 +46,7 @@ nav {
 nav .logo a {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #d9b9e2;
+    color: #009688;
 }
 nav .checkbox {
     display: none;
@@ -54,7 +56,7 @@ nav input {
 }
 nav .checkbox i {
     font-size: 2rem;
-    color: #d9b9e2;
+    color: #fff;
     cursor: pointer;
 }
 ul {
@@ -71,8 +73,8 @@ ul li a {
     color: #c9bebe;
 }
 ul li a:hover {
-    border-bottom:2px solid #652c75;
-    color: #d9b9e2;
+    border-bottom:2px solid #009688;
+    color: #fff;
 }
 .images {
     display: flex;
@@ -80,11 +82,11 @@ ul li a:hover {
     align-items: center;
 }
 .images img {
-    width: 450px;
-    height: 450px;
+    width: 410px;
+    height: 410px;
     border-radius: 50%;
-    background-color: #652c751a;
-    border-bottom: 3px solid #652c75;
+    /* background-color: #00968721; */
+    border-bottom: 3px solid #009688;
 }
 .container {
     width: 85%;
@@ -96,7 +98,7 @@ ul li a:hover {
 .home-content h1 {
     font-size: 4rem;
     font-weight:700;
-    color: #9440ac;
+    color: #fff;
     line-height: 1;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -105,9 +107,10 @@ ul li a:hover {
     font-size: 2rem;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: #fff;
 }
 span {
-    color: #652c75;
+    color: #009688;
 }
 .home-content p {
     font-size: 1.3rem;
@@ -115,7 +118,7 @@ span {
     margin-top: 6px;
     margin-bottom: 5px;
     line-height: 1.5;
-    /* color: #d9b9e2; */
+    color: whitesmoke;
 }
 .title {
     font-size: 3rem;
@@ -127,15 +130,15 @@ span {
     width: 2.5rem;
     height: 2.5rem;
     background-color: transparent;
-    border: 1px solid #9440ac;
+    border: 1px solid #009688;
     font-size: 1.5rem;
     border-radius: 50%;
-    color: #9440ac;
+    color: #009688;
     transition: 0.3s ease;
 }
 .social-icons a:hover {
-    color: #c9bebe;
-    background-color: #9440ac;
+    color: whitesmoke;
+    background-color: #009688;
     transform: scale(1.3)translateY(-5px);
 }
 .btn {
@@ -147,16 +150,15 @@ span {
     letter-spacing: 2px;
     outline: none;
     padding: .8rem .6rem;
-    border: 1px solid #9440ac;
+    border: 1px solid #009688;
     background-color: transparent;
-    color: #9440ac;
+    color: whitesmoke;
     border-radius: 40px;
     margin-top: 1rem;
     transition: .3s ease;
 }
 .btn:hover {
-    background-color: #9440ac;
-    color: #c9bebe;
+    background-color: #009688;
 }
 .card-container {
     display: flex;
@@ -172,10 +174,12 @@ span {
 }
 .card {
     width: 340px;
-    background-color: #652c751a;
+    /* background-color: #00968750; */
     border-radius: 10px;
     overflow: hidden;
     align-items: stretch;
+    border: 1px solid #009688;
+    box-shadow: 0px 0px 5px 0px #009688;;
 }
 .card-content {
     padding: 15px;
@@ -183,72 +187,79 @@ span {
 .card-content h1 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: whitesmoke;
 }
 .card-content p {
     font-size: 16px;
     margin-bottom: 20px;
+    color: whitesmoke;
 }
 .card-button {
     display: inline-block;
-    border: 2px solid #9440ac;
+    border: 2px solid #009688;
     border-radius: 5px;
     padding: 8px 16px;
     transition: 1s;
-    color: #9440ac;
+    color: whitesmoke;
 }
 .card-button:hover {
-    background-color: #9440ac;
-    color: #c9bebe;
+    background-color: #009688;
 }
 .page-title h2{
     font-size: 30px;
-    border-bottom: 1px solid #9359a3;
+    border-bottom: 1px solid #009688;
+    color: whitesmoke;
 }
 .about-content {
     line-height: 1.5;
     font-size: 1.2rem;
+
 }
 .about-content h1{
     font-size: 2rem;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #009688;
 }
 .about-content h2{
     font-size: 1.5rem;
     margin-top: 9px;
     margin-bottom: 9px;
+    color: #009688;
 }
 .about-content p{
     margin-top: 5px;
     margin-bottom: 5px;
+    color: whitesmoke;
 }
 .aboutpage h1{
     padding-top: 20px;
     font-size: 30px;
-    border-bottom: 1px solid #9359a3;
+    border-bottom: 1px solid #009688;
+    color: whitesmoke;
 }
 .contact form {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     width: 100%;
 } 
 .contact h1 {
     font-size: 30px;
-    border-bottom: 1px solid #9359a3;
+    border-bottom: 1px solid #009688;
 }
 .contact p {
     margin-top: 6px;
     font-size: 1.3rem;
+    color: whitesmoke;
 }
 ::placeholder {
-    color: #652c758a;
+    color: whitesmoke;
 }
 input,
 textarea {
     padding: 1rem;
     background-color: transparent;
-    border: 2px solid #9359a3;
+    border: 2px solid #009688;
     border-radius: 1rem;
     width: 20rem;
     margin-top: 1rem;
@@ -258,7 +269,7 @@ textarea {
 }
  input,
  textarea:focus {
-    border:2px solid #9359a3;
+    border:2px solid #009688;
 }
  textarea {
     height: 7.5rem;
@@ -266,16 +277,19 @@ textarea {
 button {
     padding: 1rem;
     background-color: transparent;
-    border: 2px solid #9359a3;
-    color: #9359a3;
+    border: 2px solid #009688;
+    color: whitesmoke;
     border-radius: 1rem;
     cursor: pointer;
     font-weight: 500;
     width: 8rem;
 }
+.contact h1 {
+    color: whitesmoke;
+}
 .footer {
     margin-top: 10px;
-    background-color: #652c751a;
+    background-color: #00968728;
 }
 .footer .social {
     text-align: center;
@@ -290,10 +304,10 @@ button {
     width: 2.5rem;
     height: 2.5rem;
     background-color: transparent;
-    border: 1.5px solid #9440ac;
+    border: 1.5px solid whitesmoke;
     font-size: 1.2rem;
     border-radius: 50%;
-    color: #9440ac;
+    color: whitesmoke;
 }
 .footer .social a:hover {
     opacity: 0.9;
@@ -304,6 +318,7 @@ button {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 500;
+    color: whitesmoke;
 }
 .footer .quote {
     text-align: center;
@@ -311,6 +326,7 @@ button {
     font-weight: 600;
     margin-top: 9px;
     margin-bottom: 9px;
+    color: whitesmoke;
 }
 
 @media (width < 750px) {
@@ -323,7 +339,7 @@ button {
         height: calc(100vh - 85px);
         right: -1000%;
         top: 85px;
-        background-color: #652c75;
+        background-color: #00968728;
         flex-direction: column;
         justify-content: center;
         gap: 3rem;
@@ -365,7 +381,7 @@ button {
         height: calc(100vh - 85px);
         right: -1000%;
         top: 85px;
-        background-color: #652c75;
+        background-color: #00968728;
         flex-direction: column;
         justify-content: center;
         gap: 3rem;
@@ -401,14 +417,16 @@ button {
     }
 }
 
-@media (width < 1179px) {
+@media (width < 1025px) {
     .home-content h3 {
-        /* text-wrap: nowrap; */
         font-size: 1.5;
 
     }
     .home-content h1 {
         font-size: 2.7rem;
-        /* text-wrap: nowrap; */
+    }
+    .image img {
+        width: 300px;
+        height: 300px;
     }
 }
