@@ -12,7 +12,6 @@ html {
 }
 img {
     width: 100%;
-    filter: brightness(60%);
 }
 a {
     text-decoration: none;
@@ -69,7 +68,7 @@ ul li a {
     padding: .5rem 1rem;
     font-weight: 500;
     transition: 0.3s;
-    color: #c9bebe;
+    color: whitesmoke;
 }
 ul li a:hover {
     border-bottom:2px solid #009688;
@@ -84,7 +83,7 @@ ul li a:hover {
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    /* background-color: #00968721; */
+    filter: brightness(60%);
     border-bottom: 3px solid #009688;
 }
 .container {
@@ -258,18 +257,14 @@ span {
 input,
 textarea {
     padding: 1rem;
-    background-color: transparent;
+    background-color: #0096874f;
     border: 2px solid #009688;
-    border-radius: 1rem;
+    border-radius: 2rem;
     width: 20rem;
     margin-top: 1rem;
     -webkit-transition: .5s;
     transition: .5s;
     outline: none;
-}
- input,
- textarea:focus {
-    border:2px solid #009688;
 }
  textarea {
     height: 7.5rem;
@@ -279,7 +274,7 @@ button {
     background-color: transparent;
     border: 2px solid #009688;
     color: whitesmoke;
-    border-radius: 1rem;
+    border-radius: 2rem;
     cursor: pointer;
     font-weight: 500;
     width: 8rem;
