@@ -148,7 +148,7 @@ span {
     font-weight: 400;
     letter-spacing: 2px;
     outline: none;
-    padding: .8rem .6rem;
+    padding: .7rem .8rem;
     border: 1px solid #009688;
     background-color: transparent;
     color: whitesmoke;
@@ -376,7 +376,7 @@ button {
         width: 100%;
         height: calc(100vh - 85px);
         right: -1000%;
-        top: 85px;
+        top: 100%;
         background-color:#009688;
         backdrop-filter: blur(1px);
         flex-direction: column;
