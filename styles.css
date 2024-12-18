@@ -8,7 +8,7 @@ body {
 }
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 6rem;
+    scroll-padding-top: 2rem;
 }
 img {
     width: 100%;
@@ -31,10 +31,14 @@ nav {
     top:0;
     left:0;
     z-index: 99;
+    background: rgba(0,150,136,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0,150,136,0.25);
 }
 .nav-content {
     max-width: 1200px;
-    padding: .5rem .5rem;
+    padding: .4rem .5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,10 +46,10 @@ nav {
 nav .logo a {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #009688;
+    color: #fff;
 }
 nav ul .git {
-    font-size: 3rem;
+    font-size: 2.2rem;
 }
 nav .checkbox {
     display: none;
@@ -55,7 +59,7 @@ nav input {
 }
 nav .checkbox i {
     font-size: 2rem;
-    color: #009688;
+    color: #fff;
     cursor: pointer;
 }
 ul {
@@ -66,7 +70,7 @@ ul {
     transition: right 0.3s;
 }
 ul li a {
-    padding: .5rem 1rem;
+    padding: .1rem 1rem;
     font-weight: 500;
     transition: 0.3s;
     color: whitesmoke;
@@ -335,8 +339,10 @@ button {
         height: calc(100vh - 85px);
         right: -1000%;
         top: 85px;
-        background-color: #009688;
-        backdrop-filter: blur(1px);
+        background: rgba(0,150,136,0.5);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(0,150,136,0.25);
         flex-direction: column;
         justify-content: center;
         gap: 3rem;
@@ -378,8 +384,10 @@ button {
         height: calc(100vh - 85px);
         right: -1000%;
         top: 100%;
-        background-color:#009688;
-        backdrop-filter: blur(1px);
+        background: rgba(0,150,136,0.5);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(0,150,136,0.25);
         flex-direction: column;
         justify-content: center;
         gap: 3rem;
