@@ -159,7 +159,7 @@ span {
     color: whitesmoke;
     border-radius: 40px;
     margin-top: 1rem;
-    transition: .3s ease;
+    transition: 1s;
 }
 .btn:hover {
     background-color: #009688;
